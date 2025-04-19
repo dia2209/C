@@ -1,12 +1,13 @@
-//sum of 2 sides is greater than the last
+#include <stdio.h>
+int main() {
+    float radius, area;
 
-#include<stdio.h>
-int main(){
-    int a;
-    int b;
-    printf("Enter any two numbers a and b");
-    scanf("%d",a);
-    scanf("%d",b);
-    printf("The two numbers are %d and %d",b,a);
+    printf("Enter radius: ");
+    scanf("%f", &radius);
+
+    area = 3.14 * radius * radius;
+
+    printf("Area of circle: %.2f\n", area);
+
     return 0;
 }
