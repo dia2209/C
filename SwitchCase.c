@@ -1,36 +1,3 @@
-#include <stdio.h>
-int main()
-{
-int a,b;
-printf("is the person home? (1/2)\n");
-scanf("%d",&a);
-printf("is it daytime? (1/2)\n");
-scanf("%d",&b);
-switch (b)
-{
-case 1:
-    if (a==1)
-    {
-         printf("security mode:off \nlighting:off\n");
-    break;
-    }
-    else {printf("security mode: on\n");}
-case 2:
-    if (a==1)
-    {
-         printf("security mode:off \nturning lighting: on\n");
-    break;
-    }
-    else {printf("security mode:on \nheating and lighting: off\n");}
-    break;
-default:
-    break;
-}
-}
-
-//Develop a C program that manages restaurant orders. Each order can be for a Main Course, Dessert, or Beverage. If the oerder inckudes a Main Course, Dessert or Beverage. If the order includesa Main course and the total amount is above $50, apply as 15% discunt. if the order is for Desert, apply a 5% discount on orders above $20. use a combination if if-else and switch statenst
-
-
 #include<stdio.h>
 
 int main() {
@@ -76,3 +43,4 @@ int main() {
 
     return 0;
 }
+
